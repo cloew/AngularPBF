@@ -1,10 +1,10 @@
 from distutils.core import setup
 
 setup(name='pbf_ng',
-      version='.1',
-      description="Programmer's Best Friend Utility Extension for pbf_ng",
-      author='', # Add your name here
-      author_email='', # Add your e-mail here
+      version='0.1.0',
+      description="Programmer's Best Friend Utility Extension for AngularJS",
+      author='Chris Loew',
+      author_email='cloew123@gmail.com',
       packages=['pbf_ng', 'pbf_ng.Commands', 'pbf_ng.templates'],
-      #package_data = {'pbf_ng.templates':[]}, # Add template files
+      package_data = {'pbf_ng.templates':['module.js']},
      )
